@@ -1,0 +1,14 @@
+{
+  "name": "faq-rag-project",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"uvicorn app:app --reload --port 8000 --app-dir backend\" \"npm start --prefix frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  }
+}
