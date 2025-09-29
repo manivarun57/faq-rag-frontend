@@ -52,7 +52,7 @@ export default function FAQPage() {
     { name: "Account", icon: "" },
     { name: "Payments", icon: "" },
     { name: "Security", icon: "" },
-    { name: "API Integration", icon: "</>" },
+    { name: "API Integration", icon: "" },
   ];
 
   const handleSubmit = async (e) => {
