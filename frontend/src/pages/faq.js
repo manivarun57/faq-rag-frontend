@@ -38,13 +38,6 @@ export default function FAQPage() {
   const [searchResult, setSearchResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  export default function FAQPage() {
-  const [faqsByCat, setFaqsByCat] = useState({});
-  const [activeCategory, setActiveCategory] = useState("All Categories");
-  const [query, setQuery] = useState("");
-  const [searchResult, setSearchResult] = useState(null);
-  const [loading, setLoading] = useState(false);
-
   const API_BASE = process.env.REACT_APP_API_BASE || "http://13.201.38.90:8000";
 
   useEffect(() => {
