@@ -38,7 +38,7 @@ export default function FAQPage() {
   const [searchResult, setSearchResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:8000";
+  const API_BASE = process.env.REACT_APP_API_BASE || "http://13.201.38.90:8000";
 
   useEffect(() => {
     fetch(`${API_BASE}/api/faqs`)
